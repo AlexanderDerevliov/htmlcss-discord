@@ -13,18 +13,28 @@ body { font-family:  Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 li { list-style: none;}
 
-hr { color: white;}
+
 
 a {color: white;
     text-decoration: none;}
 
-h2 {
+h2, h3 {
     font-size: 2.5rem;
     padding-bottom: 2rem;
 }
 
+h3, h4 {color: blue;}
+
 p { line-height: 2rem;
     }
+
+span {padding: .4rem;}    
+
+option { 
+        background-color: rgb(37 94 233);
+        font-size: 1rem;
+    }
+        
 
 /* HEADER */
 header { 
@@ -59,7 +69,6 @@ header {
     font-size: 18px;
     padding: 0.5rem;
     box-shadow: 1px 1px;
-    
 }
 
 
@@ -98,7 +107,7 @@ header {
     gap: 2rem;
 }
 
-.download-mac, .open-discord {
+.download-mac, .download-mac-footer, .open-discord, .register {
     min-width: 100px;
     border-radius: 20px;
     font-size: 1.5rem;
@@ -109,8 +118,6 @@ header {
 .download-mac{
     background-color: rgba(255, 255, 255, 0.856);
     color: black;
-    
-
 }
 
 .open-discord{
@@ -129,8 +136,6 @@ header {
     align-items: center;
     min-height: 400px;
     padding: 5rem 0;
-    
-    
 }
 
 /* LEFT AND RIGHT */
@@ -140,11 +145,12 @@ header {
 
 .left-content  {
     text-align: start;
-    width: 40%;
+    width: 45%;
 }
 
 .right-content {
-    width: 20%; 
+    width: 25%; 
+    font-size: 1.2rem;
 }
 /* SECOND-SECTION  */
 
@@ -157,12 +163,13 @@ header {
 }
 
 .left-content2  {
-    width: 20%; 
+    width: 25%; 
+    font-size: 1.2rem;
 }
 
 .right-content2 {
     text-align: end;
-    width: 40%;
+    width: 45%;
 }
 
 
@@ -171,34 +178,58 @@ header {
 
 .left-content3, .right-content3 {
     min-height: 300px;
-    border: 1px dashed black;
 }
 
 .left-content3  {
-    background-color: lightblue;
-    width: 40%;
+    text-align: start;
+    width: 45%;
 }
 
 .right-content3 {
-    background-color: pink;
-    width: 30%; 
+    width: 25%; 
+    font-size: 1.2rem;
 }
 
 /* SECTION FOURTH BIG-SQUARE */
 
 .big {
-    background-color: gray;
+    background-color: rgba(230, 230, 230, 0.445);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 800px;
+    padding: 4rem 0;
 }
 
 .big-square {
-    background-color: green;
-    border: 1px dashed black;
-    min-height: 600px;
-    width: 70%;
+    text-align: center;
+    min-height: 300px;
+    width: 80%;
+    
+}
+
+.end-text {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding: 2rem 0 3rem;
+}
+
+.download-mac-footer{
+    background-color: rgb(37 94 233);
+    color: white;
+
+}
+
+.last-content {
+    width: 40%;
+    background-image: url(../img/stars.svg);
+    background-repeat: repeat-x;
+    background-size: contain;
+
 }
 
 /* FOOTER */
@@ -211,29 +242,43 @@ header {
     justify-content: center;
     align-items: center;
     min-height: 600px;
+   
     
 }
 
 .raw {
     display: flex;
     width: 70%;
+    border-bottom: 1px solid rgb(37 94 233);
 }
 
 .col {
-    background-color: pink;
-    min-height: 500px;
-    border: 1px dashed white;
-    width: calc(100% / 3)
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2.5em;
+    min-height: 100px;
+    padding: 4rem 0;
+    width: calc(100% / 4);
 }
    
 .col-one {
-
-    background-color: rgb(37, 79, 219);
     min-height: 500px;
-    border: 1px dashed black;
+    padding-top: 4rem;
     width: 40%;
-    
 }
+
+.social {
+    margin: 1.2rem 0;
+    font-size: 2rem;
+}
+.choise {
+    background-color: rgba(41, 41, 41, 0);
+    color: white;
+    border-style: none;
+    font-size: 1.3rem;
+}
+
 
 /* FOOTER-NAVIGATION */
 
@@ -246,26 +291,16 @@ header {
 }
 
 .footer-nav {
-    background-color: lightblue;
-    height: 50px;
+    min-height: 50px;
     width: 70%;
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
 }
 
-.logo-footer {
-    background-color: pink;
-    border: 1px dashed black;
-  
-    min-height: 20px;
-    text-align: center;
-}
 
-.button {
-    border: 1px dashed black;
-    
-    min-height: 20px;
+.register {
+    background-color: rgb(37 94 233);
 }
 
 
