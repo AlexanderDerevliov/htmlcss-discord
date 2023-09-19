@@ -1,0 +1,263 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img { max-width: 100%;}
+
+/* COMMON */
+
+body { font-family:  Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+li { list-style: none;}
+
+hr { color: white;}
+
+a {color: white;
+    text-decoration: none;}
+
+/* HEADER */
+header { 
+    background-color:  rgb(37 94 233);
+    height: 100px;
+    padding-top: 1.5rem;
+}
+
+/* NAVIGATION AND MENU-NAV */
+.navigation {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.menu-nav { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    gap: 3rem;
+    width: 70%;
+}
+
+.login {
+    background-color: rgb(243, 241, 241);
+    border-radius: 20px ;
+    font-size: 18px;
+    padding: 0.5rem;
+    box-shadow: 1px 1px;
+    
+}
+
+
+/* HERO */
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+.hero-content {
+    background-color: rgba(37, 93, 233, 0);
+    color: white;
+    text-align: center;
+    min-height: 250px;
+    width: 50%;
+}
+
+.main-text {
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.text-content {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding: 2rem 0 3rem;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.download-mac, .open-discord {
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    box-shadow: 1px 1px;
+}
+
+.download-mac{
+    background-color: rgba(255, 255, 255, 0.856);
+    color: black;
+    
+
+}
+
+.open-discord{
+    background-color: rgba(0, 0, 0, 0.872);
+    color: white;
+}
+
+
+/* SECTIONS AND FIRST SECTION */
+
+/* COMMON STYLE */
+
+.section, .section2, .section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+/* LEFT AND RIGHT */
+.left-content, .right-content {
+    min-height: 300px;
+    border: 1px dashed black;
+}
+
+.left-content  {
+    background-color: lightblue;
+    width: 40%;
+}
+
+.right-content {
+    background-color: pink;
+    width: 30%; 
+}
+/* SECOND-SECTION  */
+
+.section2 {
+    background-color: grey;
+}
+
+.left-content2, .right-content2 {
+    min-height: 300px;
+    border: 1px dashed black;
+}
+
+.left-content2  {
+    background-color: pink;
+    width: 30%;
+}
+
+.right-content2 {
+    background-color: lightblue;
+    width: 40%; 
+
+}
+
+/* THIRD-SECTION */
+
+.left-content3, .right-content3 {
+    min-height: 300px;
+    border: 1px dashed black;
+}
+
+.left-content3  {
+    background-color: lightblue;
+    width: 40%;
+}
+
+.right-content3 {
+    background-color: pink;
+    width: 30%; 
+}
+
+/* SECTION FOURTH BIG-SQUARE */
+
+.big {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+}
+
+.big-square {
+    background-color: green;
+    border: 1px dashed black;
+    min-height: 600px;
+    width: 70%;
+}
+
+/* FOOTER */
+
+/* CONTAINER */
+
+.container {
+    background-color: rgba(41, 41, 41, 0.92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    
+}
+
+.raw {
+    display: flex;
+    width: 70%;
+}
+
+.col {
+    background-color: pink;
+    min-height: 500px;
+    border: 1px dashed white;
+    width: calc(100% / 3)
+}
+   
+.col-one {
+
+    background-color: rgb(37, 79, 219);
+    min-height: 500px;
+    border: 1px dashed black;
+    width: 40%;
+    
+}
+
+/* FOOTER-NAVIGATION */
+
+.footer-container {
+    background-color: rgba(41, 41, 41, 0.92);
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav {
+    background-color: lightblue;
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.logo-footer {
+    background-color: pink;
+    border: 1px dashed black;
+  
+    min-height: 20px;
+    text-align: center;
+}
+
+.button {
+    border: 1px dashed black;
+    
+    min-height: 20px;
+}
+
+
+
+
